@@ -1,0 +1,35 @@
+body {
+    background-image: url(/IMG/YZ\ 250.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.logo{
+    width: 200px;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.txt {
+    margin: 0 15px;
+    color: white;
+}
+
+.txt a{
+    padding: 10px 15px;
+    display: flexbox;
+}
+
+.txt a :hover{
+    background-color: gray;
+    color: blue;
+}
